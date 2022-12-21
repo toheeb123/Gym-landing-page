@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         primary: "#D7FB00",
       },
+
+      container: {
+        center: true,
+        padding: "15px",
+      },
     },
   },
   plugins: [],
