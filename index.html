@@ -10,11 +10,11 @@
     <!-- Nav -->
     <!--  -->
     <section id="upper-section">
-      <div class="container">
+      <div class="container grid grid-cols-1 md:grid-cols-2 place-items-center">
         <div class="mb-5">
           <p class="text-primary text-lg">WELCOME TO THE</p>
           <h1
-            class="text-white font-impact text-5xl leading-tight mb-2 tracking-normal"
+            class="text-white font-impact text-5xl md:text-7xl md:leading-normal leading-tight mb-2 tracking-normal"
           >
             MOST WANTED ONLINE PERSONAL TRAINING
           </h1>
@@ -35,13 +35,15 @@
         <!-- <img src="/Assets/logo-black.png" alt="" class="w-16" /> -->
       </div>
     </section>
-    <section id="our-programs">
-      <div class="container">
+    <section id="our-programs ">
+      <div class="container p-3 md:p-6">
         <h2 class="text-white text-2xl font-impact tracking-wider mb-3">
           OUR PROGRAMS
         </h2>
-        <div class="card-container grid grid-cols-1 place-items-center">
-          <div class="card mb-3">
+        <div
+          class="card-container grid grid-cols-1 md:grid-cols-4 md:space-x-3 place-items-center"
+        >
+          <div class="card mb-3 md:mb-0">
             <div>
               <img
                 src="/Assets/alex-shaw-c16GsJVy9p4-unsplash.jpg"
@@ -54,28 +56,24 @@
             >
               YOGA
             </h3>
-            <p class="text-gray-200 text-lg">
+            <p class="text-white text-lg">
               Deepen your practice through traditional yoga flows with us
             </p>
           </div>
-          <div class="card mb-3">
+          <div class="card mb-3 md:mb-0">
             <div>
-              <img
-                src="/Assets/andreea-boncota-icxORkp1Yv0-unsplash.jpg"
-                alt=""
-                class="w-auto mb-3"
-              />
+              <img src="/Assets/cardio.jpg" alt="" class="w-auto mb-3" />
             </div>
             <h3
               class="text-white font-impact text-2xl tracking-wide underline underline-offset-1"
             >
               CARDIO AND HIT
             </h3>
-            <p class="text-gray-200 text-lg">
+            <p class="text-white text-lg">
               Deepen your practice through traditional yoga flows with us
             </p>
           </div>
-          <div class="card mb-3">
+          <div class="card mb-3 md:mb-0">
             <div>
               <img
                 src="/Assets/john-fornander-TAZoUmDqzXk-unsplash.jpg"
@@ -88,11 +86,11 @@
             >
               ARM TRAINING
             </h3>
-            <p class="text-gray-200 text-lg">
+            <p class="text-white text-lg">
               Deepen your practice through traditional yoga flows with us
             </p>
           </div>
-          <div class="card mb-3">
+          <div class="card mb-3 md:mb-0">
             <div>
               <img
                 src="/Assets/dave-goudreau-T6G__G4OHK0-unsplash.jpg"
@@ -103,60 +101,77 @@
             <h3
               class="text-white font-impact text-2xl tracking-wide underline underline-offset-1"
             >
-              YOGA
+              BODY TRAINING
             </h3>
-            <p class="text-gray-200 text-lg">
+            <p class="text-white text-lg">
               Deepen your practice through traditional yoga flows with us
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section id="pricing" class="bg-white p-6">
+    <section id="pricing" class="bg-white p-4">
       <div class="container">
-        <p class="font-impact underline text-2xl text-center underline-offset-2 mb-3">PRICING</p>
+        <p
+          class="font-impact underline text-2xl text-center underline-offset-2 mb-3"
+        >
+          PRICING
         </p>
-        <div class="pricing-card-wrapper grid grid-cols-1 md:space-x-3 place-items-center">
-           <div class="pricing-card text-white bg-black p-3 w-full mb-2 text-center">
-            <h3 class="font-impact tracking-wide text-center text-2xl">BASIC</h3>
-            <p class="font-impact tracking-wide text-center text-xl">$20</p>
-            <p class="text-center text-gray-300 mb-2">/month</p>
-            <div class="cardline border-b-4 border-primary w-full mb-3"></div>
-            <ul class="">
-              <li class="text-xl mb-3">Unlimted gym access</li>
-              <li class="text-xl mb-3">Single Training programs</li>
-              <li class="text-xl mb-3">Free fitness consultation</li>
-              <li class="text-xl mb-3">Up to 4 times a week</li>
-            </ul>
-            <button class="p-2 border border-primary">Subscribe</button>
+        <div class="card-wrapper"></div>
+      </div>
+    </section>
+    <!-- --- -->
+    <section id="reviews" class="bg-black p-3 md:p-6">
+      <div class="container">
+        <h3 class="font-impact text-primary text-2xl tracking-wide">Reviews</h3>
+        <p class="text-white mb-2 text-xl">Satisfied trainees.</p>
+        <div
+          class="testimonial-wrapper grid md:space-x-3 grid-cols-1 md:grid-cols-3"
+        >
+          <div class="border border-primary p-3 mb-3 md:m-0">
+            <div class="">
+              <img
+                src="/Assets/jake-nackos-IF9TK5Uy-KI-unsplash (1).jpg"
+                alt=""
+                class="w-12 rounded-sm mb-2"
+              />
+            </div>
+            <p class="text-primary text-2xl">Jake</p>
+            <p class="text-white">
+              A good exercise bootcamp, i am giving 5 stars review becasue i see
+              positive impact on what i paid for. big shout out to the gym
+              instructors.
+            </p>
           </div>
-          <!--  -->
-            <div class="pricing-card text-white bg-black p-3 w-full mb-2 text-center">
-            <h3 class="font-impact tracking-wide text-center text-2xl bg-primary text-black">Premium</h3>
-            <p class="font-impact tracking-wide text-center text-xl">$50</p>
-            <p class="text-center text-gray-300 mb-2">/month</p>
-            <div class="cardline border-b-4 border-primary w-full mb-3"></div>
-            <ul class="">
-              <li class="text-xl mb-3">Unlimted gym access</li>
-              <li class="text-xl mb-3">Single Training programs</li>
-              <li class="text-xl mb-3">Free fitness consultation</li>
-              <li class="text-xl mb-3">Up to 4 times a week</li>
-            </ul>
-            <button class="p-2 border-none bg-primary text-black">Subscribe</button>
+          <div class="border border-primary p-3 mb-3 md:m-0">
+            <div class="flex">
+              <img
+                src="/Assets/julian-wan-WNoLnJo7tS8-unsplash.jpg"
+                alt=""
+                class="w-12 rounded-sm mb-2"
+              />
+            </div>
+            <p class="text-primary text-2xl">Florin</p>
+            <p class="text-white">
+              A good exercise bootcamp, i am giving 5 stars review becasue i see
+              positive impact on what i paid for. big shout out to the gym
+              instructors.
+            </p>
           </div>
-          <!--  -->
-            <div class="pricing-card text-white bg-black p-3 w-full mb-2 text-center">
-            <h3 class="font-impact tracking-wide text-center text-2xl">BASIC</h3>
-            <p class="font-impact tracking-wide text-center text-xl">$20</p>
-            <p class="text-center text-gray-300 mb-2">/month</p>
-            <div class="cardline border-b-4 border-primary w-full mb-3"></div>
-            <ul class="">
-              <li class="text-xl mb-3">Unlimted gym access</li>
-              <li class="text-xl mb-3">Single Training programs</li>
-              <li class="text-xl mb-3">Free fitness consultation</li>
-              <li class="text-xl mb-3">Up to 4 times a week</li>
-            </ul>
-            <button class="p-2 border border-primary">Subscribe</button>
+          <div class="border border-primary p-3 mb-3 md:m-0">
+            <div class="">
+              <img
+                src="/Assets/julian-wan-WNoLnJo7tS8-unsplash.jpg"
+                alt=""
+                class="w-12 rounded-sm mb-2"
+              />
+            </div>
+            <p class="text-primary text-2xl">Travercy</p>
+            <p class="text-white">
+              A good exercise bootcamp, i am giving 5 stars review becasue i see
+              positive impact on what i paid for. big shout out to the gym
+              instructors.
+            </p>
           </div>
         </div>
       </div>
